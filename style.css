@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    width: =100%;
+    height: 72vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./Assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    text-align: center; 
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+    border: none;
+    outline: none;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.
+
+
+.fa-globe {
+    color: #fff;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h3 {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header-content {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.faq p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+p {
+    display: block;
+    font-size:1.5rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.email-form {
+    text-align: center; /* Center the form */
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 50%;
+}
+
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.submit-button {
+    background-color: #db0001;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 15px;
+    padding: 15px 0; 
+    font-size: 16px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.submit-button {
+    min-width: 120px; /* Adjust the value based on your design */
+}
+
+.submit-button:hover {
+    background-color: #c40001;
+}
+
+.signup_button {
+    background-color: #db0001;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 15px 30px;
+    margin: 10px 0px 50px 0;
+}
+
+.signup_button:hover {
+    background-color: #c40001;
+}
+
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row.imcon {
+    display: flex;
+    align-items: center;
+}
+
+.header-content h2{
+    font-size: 1.5rem;
+font-weight: 400;
+
+
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin: 20px 0 ;
+}
+
+.text-col, .img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+font-size: 3rem;
+font-weight: 800;
+
+}
+
+
+
+.features {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.background-video {
+    position: absolute;
+    top: 7%;
+    left: 17%;
+    width: 66%;
+    height: 78%;
+}
+.background-video2 {
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+    width: 58%;
+    height: 50%;
+
+
+}
+
+.img-col {
+    position: relative; 
+    z-index: 1; 
+}
+
+.mobile-image {
+    display: block;
+    width: 90%;
+    margin: auto;
+    z-index: 1;
+}
+
+#download {
+    width: 10%; 
+    height: 10%; 
+      
+    content: '';
+    position: absolute;
+    top: 9em; 
+    right: 3em; /* Adjust the right position as needed */
+}
+
+
+
+
+
+
+
+.faq {  
+    margin-top: 60px;
+    padding: 10px 12%;
+    text-align: center;
+   
+}
+
+
+.partition{
+    position: absolute;
+    right: 0%;
+    height: 6px;
+    width: 1000%;
+    background-color: #303030;
+    border: none;
+}
+
+.accordion {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    display: none;
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+    display: block;
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+
+
+
+
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+.footer .lang-btn {
+
+   
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+    }
+
+    nav .lang-btn {
+        padding: 4px 8px;
+    }
+
+    .header-content {
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+        margin-top: 0;
+    }
+
+    .form-field {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .signup_button {
+        font-size: 19px;
+        padding: 10px 15px;
+    }
+
+    .text-col, .img-col {
+        flex-basis: 100%;
+    }
+
+    .features h2 {
+        font-size: 30px;
+    }
+
+    .features p {
+        font-size: 20px;
+    }
+
+    .row:nth-child(2), .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+
+    .features .row {
+        padding: 10px 0;
+    }
+
+    .faq h2 {
+        font-size: 15px;
+    }
+
+    .accordion .content {
+        font-size: 15px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after {
+        font-size: 20px;
+    }
+}
